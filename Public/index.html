@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Css/output.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="z-10 top-0">
+        <!--Flex container-->
+        <div class="flex items-center justify-between px-5 py-5">
+          <!--Logo-->
+          <div class="pt-2">
+            <img src="/Tailwind/img/logo.svg" alt="logo" />
+          </div>
+          <!--menu items-->
+          <div class="hidden space-x-6 md:flex">
+            <a href="#" class="hover:text-darkGrayishBlue">pricing</a>
+            <a href="#" class="hover:text-darkGrayishBlue">product</a>
+            <a href="#" class="hover:text-darkGrayishBlue">About us</a>
+            <a href="#" class="hover:text-darkGrayishBlue">Careers</a>
+            <a href="#" class="hover:text-darkGrayishBlue">Community</a>
+          </div>
+          <!--Button-->
+          <a
+            href="#"
+            class="hidden md:block p-3 px-6 text-white bg-brightRed rounded-full"
+            >Get Started</a
+          >
+          <!--hamburger Menu-->
+          <button
+            id="menu-btn"
+            class="block hamburger md:hidden focus:outline-none"
+          >
+            <span class="hamburger-top"></span>
+            <span class="hamburger-middle"></span>
+            <span class="hamburger-bottom"></span>
+          </button>
+        </div>
+  
+        <!--Mobile Menu-->
+        <div class="md:hidden">
+          <div
+            id="menu"
+            class="absolute flex-col items-center hidden self-end py-8 mt-10 space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md"
+          >
+            <a href="#" class="hover:text-darkGrayishBlue">product</a>
+            <a href="#" class="hover:text-darkGrayishBlue">product</a>
+            <a href="#" class="hover:text-darkGrayishBlue">About us</a>
+            <a href="#" class="hover:text-darkGrayishBlue">Careers</a>
+            <a href="#" class="hover:text-darkGrayishBlue">Community</a>
+          </div>
+        </div>
+      </nav>
+      <!--Hero-section-->
+      <section id="hero">
+        <!--flex- container-->
+        <div
+          class="container flex flex-col-reverse items-center px-6 mx-auto mt-14 space-y-0 md:flex-row"
+        >
+          <!--left item-->
+          <div class="flex flex-col mb-32 space-y-12 md:w-1/2">
+            <h1
+              class="max-w-md text-4xl font-bold text-center md:text-5xl md:text-left"
+            >
+              Bring everyone together to build better project
+            </h1>
+  
+            <p class="max-w-sm text-center text-darkGrayishBlue md:text-left">
+              Manage makes it simple for software teams to plan day to day tasks
+              while keeping the larger team goals in view
+            </p>
+            <div class="justify-center md:justify-start">
+              <a
+                href="#"
+                class="p-3 px-6 pt-2 text-white bg-brightRed rounded-full baseline hover:bg-red-600"
+                >Get started
+              </a>
+            </div>
+          </div>
+  
+          <!--right-item-->
+          <div class="md:w-1/2">
+            <img src="/Tailwind/img/illustration-intro.svg" alt="" />
+          </div>
+        </div>
+      </section>
+  
+      <section id="hero2">
+        <div
+          class="container flex flex-col md-flex lg-flex item-start px-7 mx-auto mt-5 space-y-0 md:flex-row"
+        >
+          <div class="flex flex-col mb-32 space-y-12 md:w-1/2">
+            <h1
+              class="text-[34px] font-bold text-center md:text-4xl md:text-left"
+            >
+              Whats different about manage?
+            </h1>
+            <p class="max-w-sm text-center text-darkGrayishBlue md:text-left">
+              Manage Provides all the functionality your team needs, without the
+              complexity. Our Software is Tailor-made for modern digital products
+              team
+            </p>
+          </div>
+  
+  
+          <div class="flex flex-col gap-3">
+              <div class="flex items-start">
+                  <div class="px-6">
+                      <a
+                        href="#"
+                        class="p-1 px-4 pt-1 text-white bg-brightRed rounded-full baseline hover:bg-red-600"
+                        >01
+                      </a>
+                    </div>
+                    <div class="px-1">
+                      <h3 class="font-extrabold">Track Company-wide Progress</h3>
+                      <p
+                        class="max-w-sm text-center text-darkGrayishBlue md:text-left pt-4"
+                      >
+                        See how your day-to-day tasks fits into the Wider vision. Go from
+                        tracking progress at the milestone level all the way down to the
+                        smallest of details. Never loose sight of the bigger picture again.
+                      </p>
+                    </div>
+              </div>
+      
+              <div class="flex items-start mt-3">
+                  <div class="px-6">
+                      <a
+                        href="#"
+                        class="p-1 px-4 pt-1 text-white bg-brightRed rounded-full baseline hover:bg-red-600"
+                        >02
+                      </a>
+                    </div>
+                    <div class="px-1">
+                      <h3 class="font-extrabold">Track Company-wide Progress</h3>
+                      <p
+                        class="max-w-sm text-center text-darkGrayishBlue md:text-left pt-4"
+                      >
+                        Set internal delivery estimates and track progress towards company goal.
+                        our customisable dashboard helps you build out the report you need to
+                         keep key stakeholders informed.
+                       </p>
+                    </div>
+  
+              </div>
+              <div class="flex items-start mt-3">
+                  <div class="px-6">
+                      <a
+                        href="#"
+                        class="p-1 px-4 pt-1 text-white bg-brightRed rounded-full baseline hover:bg-red-600"
+                        >03
+                      </a>
+                    </div>
+                    <div class="px-1">
+                      <h3 class="font-extrabold">Track Company-wide Progress
+                      </h3>
+                      <p class="max-w-sm text-center text-darkGrayishBlue md:text-left pt-4">
+                        Stop jumping from one service to another to communicate,store files,
+                        track tasks and share documents. Managers offers an all-in-one 
+                        team productivity Solution.
+                    </p>
+                    </div>
+              </div>
+          </div>
+      </div>
+      </section>
+  
+  
+      <section id="hero3">
+          <div class="mt-24">
+               <h2 class="text-center text-4xl font-bold"> Whats Different About Manage? </h2>
+               <div class="flex px-7 pt-14 gap-10 relative">
+                  <div class="w-[320px] h-[190px] bg-slate-100 absolute  text-center rounded-xl">
+                      <div class="w-[50px] absolute">
+                          <img src="/Tailwind/img/avatar-anisha.png" alt="">
+                       </div>
+                       <h5 class=" text-black pt-16 font-bold">Anisha Li</h5>
+                       
+                       <h3 class="text-darkGrayishBlue font-normal text-xs pt-7 px-4">"Manage has Supercharged our team's Workflow.
+                          The ability to maintain visibility on larger milestones at
+                          all times keep everyone motivated."</h3>
+                 </div>
+                 <div class="w-[320px] h-[190px] bg-slate-100 absolute  text-center rounded-xl">
+                  <div class="w-[50px] absolute">
+                      <img src="/Tailwind/img/avatar-anisha.png" alt="">
+                   </div>
+                   <h5 class=" text-black pt-16 font-bold">Anisha Li</h5>
+                   
+                   <h3 class="text-darkGrayishBlue font-normal text-center text-xs pt-7 px-4">"Manage has Supercharged our team's Workflow.
+                      The ability to maintain visibility on larger milestones at
+                      all times keep everyone motivated."</h3>
+             </div>
+                 
+               </div>
+  
+                <div class="mt-64 text-center">
+                  <a
+                    href="#"
+                    class="p-3 px-6 pt-2 text-white bg-brightRed rounded-full baseline hover:bg-red-600"
+                    >Get Started
+                  </a>
+                </div>
+           </section>
+  
+           <section id="hero4">
+              <div class="w-[100%] bg-red-500 h-[150px] mt-14 ">
+                  <div class="flex justify-between px-28 py-10">
+                      <h1 class="text-white text-4xl font-bold">Simplify how your team works <br> today</h1>
+                      <a
+                    href="#"
+                    class="p-1 px-6 pt-7 bg-white text-brightRed rounded-full "
+                    >Get Started
+                  </a>
+                    </div>
+                 </div>
+              </section>
+  
+              <section id="footer">
+                <div class="w-[100%] h-[150px] bg-veryDarkBlue">
+                  <div class="flex items-center justify-between px-28 py-2">
+                    <div class="pt-">
+                      <img src="/Tailwind/img/logo-white.svg" alt="logo" />
+                    </div>
+                    <div class="flex justify-center flex-col text-white gap-2 md:flex pt-5 ">
+                      <a href="#" class="hover:text-darkGrayishBlue">Home</a>
+                      <a href="#" class="hover:text-darkGrayishBlue">pricing</a>
+                      <a href="#" class="hover:text-darkGrayishBlue">Products</a>
+                      <a href="#" class="hover:text-darkGrayishBlue">About</a>
+                    </div>
+                    <div class="flex text-white flex-col gap-2 pt-9 ">
+                      <a href="">Career</a>
+                      <a href="">Community</a>
+                      <a href="">Privacy Policy</a>
+                     </div>
+                    <a
+                      href="#"
+                      class=" md:block p-3 px-9 text-darkGrayishBlue bg-white rounded-full"
+                      >Updated in your inbox</a>
+                      <a
+                      href="#"
+                      class=" md:block p-3 px-6 text-white bg-brightRed rounded-full"
+                      >Go</a>
+                    </div>
+               </section>
+  
+  
+  
+  
+  
+      <main class="pb-[20px]">
+          <section class="bg-black relative mt-[200px] w-[400px] h-[650px] m-auto top-0 rounded-2xl">
+              <div class="pt-[50px]  w-[100px] h-[100px] absolute rounded-xl">
+                  <img class="rounded-full " src="/images/jessic randall.jpeg" alt=""> 
+                </div> 
+              <div>
+                  <h1 class="pt-44 text-white text-center text-2xl font-sans">Jessica Randall </h1> 
+                  <h1 class="pt-2 text-xs text-green-600 text-center font-sans">London, United Kingdom</h1>
+                  <p class="pt-7 text-white text-sm text-center">"Front-end developer and avid reader."</p>
+                  <div class="pt-7 text-center">
+                      <a href="#" class="p-3 px-36 text-center text-xs text-white bg-slate-800 hover:bg-green-600 hover:text-black rounded">GitHub</a>
+                  </div>
+                  <div class="pt-11 text-center">
+                      <a href="#" class="p-3 px-[118px] text-center text-xs text-white bg-slate-800 hover:bg-green-600 hover:text-black rounded">Frontend Mentor</a>
+                   </div>
+                   <div class="pt-11 text-center">
+                      <a href="#" class="p-3 px-36 text-center text-xs text-white bg-slate-800 hover:bg-green-600 hover:text-black rounded">Linkedln </a>
+                   </div>
+                   <div class="pt-11 text-center">
+                      <a href="#" class="p-3 px-[150px] text-center text-xs text-white bg-slate-800 hover:bg-green-600 hover:text-black rounded">Twitter</a>
+                  </div>
+                  <div class="pt-11 text-center">
+                      <a href="#" class="p-3 px-[142px] text-center text-xs text-white bg-slate-800 hover:bg-green-600 hover:text-black rounded">Instagram</a>
+                  </div>
+               </div>
+       </section> 
+      </main>
+      <h6 class="text-center text-xs font-semibold">
+          Challenge by <a href="#" class="underline font-light text-green-600">Frontend Mentor.</a> 
+          Coded by <a href="#" class="underline font-light text-green-600">Irene Uchegbu.</a>
+      </h6> 
+    
+</body>
+</html>
